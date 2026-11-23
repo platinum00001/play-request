@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurants | Play Request</title>
+<meta name="description" content="Falmouth and Woods Hole restaurants with dishes mapped to the 31 flavor combinations.">
+<link rel="canonical" href="https://platinum00001.github.io/play-request/restaurants.html">
+<meta name="theme-color" content="#1b1e23">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Play Request">
+<meta property="og:title" content="Restaurants | Play Request">
+<meta property="og:description" content="Falmouth and Woods Hole restaurants with dishes mapped to the 31 flavor combinations.">
+<meta property="og:url" content="https://platinum00001.github.io/play-request/restaurants.html">
+<meta property="og:image" content="https://platinum00001.github.io/play-request/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Play Request: taste your way from one flavor to all five">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Restaurants | Play Request">
+<meta name="twitter:description" content="Falmouth and Woods Hole restaurants with dishes mapped to the 31 flavor combinations.">
+<meta name="twitter:image" content="https://platinum00001.github.io/play-request/og.jpg">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="icon" href="./favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="manifest" href="./site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body data-root="./">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./index.html">
+      <span class="brand-mark" aria-hidden="true">PR</span>
+      <span><b>PLAY REQUEST</b><i>taste your way up</i></span>
+    </a>
+    <button class="burger" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a class="navlink" href="./index.html">The board</a></li>
+        <li><a class="navlink" href="./restaurants.html" aria-current="page">Restaurants</a></li>
+        <li><a class="navlink" href="./how-to.html">How to play</a></li>
+        <li><a class="navlink" href="./board.html">Board game</a></li>
+      </ul>
+      <a class="btn" data-account-link href="./account.html">Sign in</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero hero-sm">
+    <div class="wrap">
+      <p class="eyebrow">Falmouth &amp; Woods Hole</p>
+      <h1>Where to taste it</h1>
+      <p class="lead">Seventy-two kitchens, from Woods Hole’s dock to North Falmouth. Dishes marked “from the menu” use a published name; “suggested” items are informed ideas — confirm before you go.</p>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap" id="directory">
+      <div class="filters" role="group" aria-label="Town">
+        <button type="button" class="on" data-town="all">All towns</button>
+        <button type="button" data-town="Falmouth">Falmouth</button>
+        <button type="button" data-town="Woods Hole">Woods Hole</button>
+        <button type="button" data-source="all" class="on">Any source</button>
+        <button type="button" data-source="menu">Has a menu dish</button>
+      </div>
+      <p><label class="sr-only" for="q">Search</label><input id="q" type="search" placeholder="Search a restaurant or dish" style="width:min(100%,360px);padding:10px 12px;border:1px solid var(--line);border-radius:999px;font:inherit"> <span id="rcount" class="hint"></span></p>
+      <div class="rgrid" id="rgrid" style="margin-top:22px"></div>
+    </div>
+    <div class="wrap prose" id="one" hidden></div>
+  </section>
+</main>
+<footer class="site">
+  <div class="our-sites" id="our-sites">
+    <div class="wrap">
+      <p class="eyebrow">Our Sites</p>
+      <h2>Sister projects on Cape Cod and beyond.</h2>
+      <div class="sites"><a href="https://capeislandcafe.com/" target="_blank" rel="noopener"><b>Cape Island Café</b><small>Lunch on Gifford Street in Falmouth: soups, salads, bowls and wraps.</small></a><a href="https://healthandwellnessmaps.com/" target="_blank" rel="noopener"><b>Health & Wellness Maps</b><small>Local health and wellness resources on one map, starting on Cape Cod.</small></a><a href="https://roottorisema.org/" target="_blank" rel="noopener"><b>Root to Rise</b><small>Recovery community support in Falmouth, Mashpee and beyond.</small></a><a href="https://clubsforlove.com/" target="_blank" rel="noopener"><b>Clubs for Love</b><small>Donated golf gear and time on the course for people in recovery.</small></a><a href="https://platinum00001.github.io/recovery-milestones/" target="_blank" rel="noopener"><b>Recovery Milestones</b><small>Celebrate sobriety anniversaries with rewards from local businesses.</small></a><a href="https://platinum00001.github.io/flavor-quest/" target="_blank" rel="noopener"><b>Flavor Quest</b><small>An earlier Cape Cod foodie adventure that uses the same five tastes.</small></a><a href="https://platinum00001.github.io/flavor-escape/" target="_blank" rel="noopener"><b>Flavor Escape</b><small>A story game built on the 31 flavor combinations.</small></a><a href="https://platinum00001.github.io/sites-hub/" target="_blank" rel="noopener"><b>All Sites Hub</b><small>A directory of every site in the network.</small></a></div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div class="wrap">
+      <span>&copy; <span data-year>2026</span> Play Request · Falmouth &amp; Woods Hole, MA · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a> · <a data-email hidden href="#">Contact</a></span>
+      <div class="social" data-social></div>
+    </div>
+  </div>
+</footer>
+
+<script src="./config.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/supabase-client.js"></script>
+<script src="./js/data.js"></script>
+<script src="./js/storage.js"></script>
+<script src="./js/restaurants.js"></script>
+</body>
+</html>

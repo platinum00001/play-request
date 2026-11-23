@@ -1,0 +1,57 @@
+[
+  {
+    "id": "sweet",
+    "name": "Sweet",
+    "color": "#e25d7a",
+    "blurb": "Sugar, honey, ripe fruit — the taste that rounds a dish.",
+    "examples": [
+      "honey",
+      "ripe mango",
+      "vanilla ice cream"
+    ]
+  },
+  {
+    "id": "sour",
+    "name": "Sour",
+    "color": "#7cb342",
+    "blurb": "Lemon, vinegar, fermentation — the taste that wakes everything up.",
+    "examples": [
+      "lemon",
+      "plain yogurt",
+      "pickle brine"
+    ]
+  },
+  {
+    "id": "salty",
+    "name": "Salty",
+    "color": "#3a7ca5",
+    "blurb": "Sea, soy, cheese — the taste that makes food taste like itself.",
+    "examples": [
+      "pretzels",
+      "sea salt",
+      "soy sauce"
+    ]
+  },
+  {
+    "id": "bitter",
+    "name": "Bitter",
+    "color": "#6b3aa0",
+    "blurb": "Coffee, dark greens, cocoa — the grown-up edge of flavor.",
+    "examples": [
+      "black coffee",
+      "dark chocolate",
+      "arugula"
+    ]
+  },
+  {
+    "id": "umami",
+    "name": "Umami",
+    "color": "#c0603a",
+    "blurb": "Broth, mushroom, tomato, aged cheese — the deep, savory taste.",
+    "examples": [
+      "Parmesan",
+      "miso",
+      "roasted mushrooms"
+    ]
+  }
+]

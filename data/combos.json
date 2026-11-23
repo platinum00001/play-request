@@ -1,0 +1,653 @@
+[
+  {
+    "id": "bitter",
+    "level": 1,
+    "levelName": "Singles",
+    "tastes": [
+      "bitter"
+    ],
+    "name": "Bitter",
+    "blurb": "Coffee, dark greens, cocoa — the grown-up edge of flavor.",
+    "classics": [
+      "Black coffee",
+      "A square of unsweetened chocolate",
+      "Arugula salad"
+    ],
+    "colors": [
+      "#6b3aa0"
+    ]
+  },
+  {
+    "id": "salty",
+    "level": 1,
+    "levelName": "Singles",
+    "tastes": [
+      "salty"
+    ],
+    "name": "Salty",
+    "blurb": "Sea, soy, cheese — the taste that makes food taste like itself.",
+    "classics": [
+      "A pretzel",
+      "Sea-salted tomato",
+      "Soy sauce on rice"
+    ],
+    "colors": [
+      "#3a7ca5"
+    ]
+  },
+  {
+    "id": "sour",
+    "level": 1,
+    "levelName": "Singles",
+    "tastes": [
+      "sour"
+    ],
+    "name": "Sour",
+    "blurb": "Lemon, vinegar, fermentation — the taste that wakes everything up.",
+    "classics": [
+      "A squeeze of lemon",
+      "Plain yogurt",
+      "Dill pickle"
+    ],
+    "colors": [
+      "#7cb342"
+    ]
+  },
+  {
+    "id": "sweet",
+    "level": 1,
+    "levelName": "Singles",
+    "tastes": [
+      "sweet"
+    ],
+    "name": "Sweet",
+    "blurb": "Sugar, honey, ripe fruit — the taste that rounds a dish.",
+    "classics": [
+      "Honey on toast",
+      "Ripe mango",
+      "Vanilla ice cream"
+    ],
+    "colors": [
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "umami",
+    "level": 1,
+    "levelName": "Singles",
+    "tastes": [
+      "umami"
+    ],
+    "name": "Umami",
+    "blurb": "Broth, mushroom, tomato, aged cheese — the deep, savory taste.",
+    "classics": [
+      "Shaved Parmesan",
+      "Miso soup",
+      "Sautéed mushrooms"
+    ],
+    "colors": [
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-salty",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "bitter",
+      "salty"
+    ],
+    "name": "Bitter + Salty",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Salted dark chocolate",
+      "Olives",
+      "Tonic with a pinch of salt"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5"
+    ]
+  },
+  {
+    "id": "bitter-sour",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "bitter",
+      "sour"
+    ],
+    "name": "Bitter + Sour",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Grapefruit",
+      "An IPA with lemon",
+      "Unsweetened cranberry"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#7cb342"
+    ]
+  },
+  {
+    "id": "bitter-sweet",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "bitter",
+      "sweet"
+    ],
+    "name": "Bitter + Sweet",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Dark chocolate",
+      "A mocha",
+      "Candied grapefruit peel"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "bitter-umami",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "bitter",
+      "umami"
+    ],
+    "name": "Bitter + Umami",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Espresso with a Parmesan bite",
+      "Broccolini with garlic",
+      "Dark beer stew"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "salty-sour",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "salty",
+      "sour"
+    ],
+    "name": "Salty + Sour",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Salt-and-vinegar chips",
+      "Pickled olives",
+      "Ceviche"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#7cb342"
+    ]
+  },
+  {
+    "id": "salty-sweet",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "salty",
+      "sweet"
+    ],
+    "name": "Salty + Sweet",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Salted caramel",
+      "Chocolate-covered pretzels",
+      "Kettle corn"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "salty-umami",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "salty",
+      "umami"
+    ],
+    "name": "Salty + Umami",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Soy sauce",
+      "Miso soup",
+      "Anchovies"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "sour-sweet",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "sour",
+      "sweet"
+    ],
+    "name": "Sour + Sweet",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Lemonade",
+      "Berry jam with citrus",
+      "Sweet-and-sour sauce"
+    ],
+    "colors": [
+      "#7cb342",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "sour-umami",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "sour",
+      "umami"
+    ],
+    "name": "Sour + Umami",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Tomato sauce",
+      "Worcestershire",
+      "Kimchi"
+    ],
+    "colors": [
+      "#7cb342",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "sweet-umami",
+    "level": 2,
+    "levelName": "Pairs",
+    "tastes": [
+      "sweet",
+      "umami"
+    ],
+    "name": "Sweet + Umami",
+    "blurb": "Once you have tried a flavor, every pair that adds one new flavor to it opens.",
+    "classics": [
+      "Teriyaki",
+      "Honey-glazed ham",
+      "Ketchup"
+    ],
+    "colors": [
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-salty-sour",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sour"
+    ],
+    "name": "Bitter + Salty + Sour",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "A Negroni",
+      "Grapefruit with a salt rim",
+      "A hoppy gose"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#7cb342"
+    ]
+  },
+  {
+    "id": "bitter-salty-sweet",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sweet"
+    ],
+    "name": "Bitter + Salty + Sweet",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Salted mocha",
+      "Maple-bourbon glaze",
+      "Candied bacon with coffee"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "bitter-salty-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "salty",
+      "umami"
+    ],
+    "name": "Bitter + Salty + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Cacio e pepe with broccoli rabe",
+      "Soy-braised bitter greens",
+      "Marmite on toast with coffee"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-sour-sweet",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "sour",
+      "sweet"
+    ],
+    "name": "Bitter + Sour + Sweet",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "An Aperol spritz",
+      "Candied grapefruit",
+      "Campari and orange"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#7cb342",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "bitter-sour-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "sour",
+      "umami"
+    ],
+    "name": "Bitter + Sour + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Tomato-espresso braise",
+      "Nam prik",
+      "Radicchio with anchovy"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#7cb342",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-sweet-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "bitter",
+      "sweet",
+      "umami"
+    ],
+    "name": "Bitter + Sweet + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Mole sauce",
+      "Coffee-rubbed steak with brown sugar"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "salty-sour-sweet",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "salty",
+      "sour",
+      "sweet"
+    ],
+    "name": "Salty + Sour + Sweet",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Sweet chili sauce",
+      "Salted lime soda (chamoy)",
+      "Pad Thai's sweet-sour-salt baseline"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#7cb342",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "salty-sour-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "salty",
+      "sour",
+      "umami"
+    ],
+    "name": "Salty + Sour + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Fish-sauce vinaigrette",
+      "Poke",
+      "Caesar dressing"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#7cb342",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "salty-sweet-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "salty",
+      "sweet",
+      "umami"
+    ],
+    "name": "Salty + Sweet + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Teriyaki",
+      "Honey-soy glaze",
+      "Bacon jam"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "sour-sweet-umami",
+    "level": 3,
+    "levelName": "Trios",
+    "tastes": [
+      "sour",
+      "sweet",
+      "umami"
+    ],
+    "name": "Sour + Sweet + Umami",
+    "blurb": "A trio opens when it extends any pair you have already tried by one flavor.",
+    "classics": [
+      "Ketchup",
+      "BBQ sauce",
+      "Sweet chili with fish sauce"
+    ],
+    "colors": [
+      "#7cb342",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-salty-sour-sweet",
+    "level": 4,
+    "levelName": "Quads",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sour",
+      "sweet"
+    ],
+    "name": "Bitter + Salty + Sour + Sweet (everything except Umami)",
+    "blurb": "A quad opens when it extends any trio you have already tried by one flavor.",
+    "classics": [
+      "Salted lemon dark chocolate",
+      "A Paloma with grapefruit bitters"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#7cb342",
+      "#e25d7a"
+    ]
+  },
+  {
+    "id": "bitter-salty-sour-umami",
+    "level": 4,
+    "levelName": "Quads",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sour",
+      "umami"
+    ],
+    "name": "Bitter + Salty + Sour + Umami (everything except Sweet)",
+    "blurb": "A quad opens when it extends any trio you have already tried by one flavor.",
+    "classics": [
+      "Caesar salad",
+      "A dirty martini with lemon and olive"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#7cb342",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-salty-sweet-umami",
+    "level": 4,
+    "levelName": "Quads",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sweet",
+      "umami"
+    ],
+    "name": "Bitter + Salty + Sweet + Umami (everything except Sour)",
+    "blurb": "A quad opens when it extends any trio you have already tried by one flavor.",
+    "classics": [
+      "Mole negro",
+      "A coffee-soy caramel glaze"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-sour-sweet-umami",
+    "level": 4,
+    "levelName": "Quads",
+    "tastes": [
+      "bitter",
+      "sour",
+      "sweet",
+      "umami"
+    ],
+    "name": "Bitter + Sour + Sweet + Umami (everything except Salty)",
+    "blurb": "A quad opens when it extends any trio you have already tried by one flavor.",
+    "classics": [
+      "Som tum (green papaya salad) variations",
+      "A tamarind-coffee glaze"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#7cb342",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "salty-sour-sweet-umami",
+    "level": 4,
+    "levelName": "Quads",
+    "tastes": [
+      "salty",
+      "sour",
+      "sweet",
+      "umami"
+    ],
+    "name": "Salty + Sour + Sweet + Umami (everything except Bitter)",
+    "blurb": "A quad opens when it extends any trio you have already tried by one flavor.",
+    "classics": [
+      "Pad Thai",
+      "A well-built poke bowl",
+      "Hawaiian pizza (the argument starter)"
+    ],
+    "colors": [
+      "#3a7ca5",
+      "#7cb342",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  },
+  {
+    "id": "bitter-salty-sour-sweet-umami",
+    "level": 5,
+    "levelName": "The Peak",
+    "tastes": [
+      "bitter",
+      "salty",
+      "sour",
+      "sweet",
+      "umami"
+    ],
+    "name": "The Peak — all five",
+    "blurb": "The Peak opens when it extends any quad you have already tried — all five tastes in one bite.",
+    "classics": [
+      "A great mole with lime",
+      "Complex ramen with a squeeze of lime",
+      "A burger with pickles, cheese, a sweet bun, bitter greens and salt"
+    ],
+    "colors": [
+      "#6b3aa0",
+      "#3a7ca5",
+      "#7cb342",
+      "#e25d7a",
+      "#c0603a"
+    ]
+  }
+]

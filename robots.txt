@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /account.html
+Disallow: /staff.html
+Sitemap: https://platinum00001.github.io/play-request/sitemap.xml
